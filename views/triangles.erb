@@ -5,7 +5,7 @@
 <% if @triangles.any? %>
 <ul>
   <% @triangles.each do |triangle| %>
-  <li><%= @triangles %></li>
+  <li><%= triangle.side1 + ", " + triangle.side2 + ", " + triangle.side3 %></li>
   <% end %>
 </ul>
 <% else %>

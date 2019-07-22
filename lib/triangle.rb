@@ -6,9 +6,9 @@ class Triangle
   @@triangles = {}
   # @@total_rows = 0
   def initialize(side1, side2, side3)
-    @side1 = side1.to_i
-    @side2 = side2.to_i
-    @side3 = side3.to_i
+    @side1 = side1
+    @side2 = side2
+    @side3 = side3
     # @id = id || @@total_rows +=1
   end
 
