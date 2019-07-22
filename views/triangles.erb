@@ -1,0 +1,15 @@
+
+<h1>All Triangles</h1>
+<h3>Available Triangles</h3>
+
+<% if @triangles.any? %>
+<ul>
+  <% @triangles.each do |triangle| %>
+  <li><%= @triangles %></li>
+  <% end %>
+</ul>
+<% else %>
+<p>There are currently no traingles to display.</p>
+<% end %>
+
+<a href="/triangles/new">Add a new triangle</a>
